@@ -6,14 +6,9 @@ import './Navigation.css'
 const Navigation = () => {
     return (
         <div className='top-bar-home'>
-            
-                <NavLink to='/' className="navLink-home" >
-                    <div className='home-pic'>
-                        <img src="./img/chibi.png" alt="profil-pic" className='pic'/>
-                    </div>
-                    <h2>Alexis Noukan</h2> 
-                </NavLink>
-               
+            <div className='home-pic'>
+                <img src="./img/chibi.png" alt="profil-pic" className='pic'/>
+            </div>
             <div className='top-bar'>
                 <ul>
                     <li>
