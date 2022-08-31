@@ -1,14 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navigation.css'
+import '../img/chibi.png';
 
 const Navigation = () => {
     return (
         <div className='top-bar-home'>
             
-                <NavLink exact to ='/' className="navLink-home" >
+                <NavLink to='/' className="navLink-home" >
                     <div className='home-pic'>
-                        <img src="./media/chibi_20220823_162302.png" alt="profil-pic" className='pic'/>
+                        <img src="chibi.png" alt="profil-pic" className='pic'/>
                     </div>
                     <h2>Alexis Noukan</h2> 
                 </NavLink>
