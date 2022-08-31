@@ -9,6 +9,7 @@ import NotFound from './pages/NotFound.js';
 
 function App() {
   return (
+    <>
     <BrowserRouter>
     <Routes>
       <Route exact to path="/" element={<Home/>} />
@@ -16,10 +17,9 @@ function App() {
       <Route path="/skill" element={<Skill/>} />
       <Route path="/contact" element={<Contact/>} />
       <Route element={NotFound} />
-
     </Routes>
 </BrowserRouter>
-    
+    </>
   );
 }
 

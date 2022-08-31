@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div>
             <Navigation/>
-           <p>Bonjour</p><br/>
+           <p>Bonjour</p>
            <p>ceci est une petite présentation de moi  </p>
            <p>lol ca marche</p>
         </div>

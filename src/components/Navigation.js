@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navigation.css'
-import '../img/chibi.png';
+
 
 const Navigation = () => {
     return (
@@ -9,7 +9,7 @@ const Navigation = () => {
             
                 <NavLink to='/' className="navLink-home" >
                     <div className='home-pic'>
-                        <img src="chibi.png" alt="profil-pic" className='pic'/>
+                        <img src="./img/chibi.png" alt="profil-pic" className='pic'/>
                     </div>
                     <h2>Alexis Noukan</h2> 
                 </NavLink>
