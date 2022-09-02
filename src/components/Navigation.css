@@ -21,26 +21,13 @@
   object-fit: wrap;
 }
 .home-pic {
-  position: relative;
-  width: 100px;
-  height: 100px;
-}
-.home-pic::before {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  bottom: -5px;
-  left: 0;
-  right: 0;
-  content: "";
-  z-index: -1;
-  border: 1px;
+  display: flex;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  background-color: blueviolet;
+  box-shadow: 0 0 5px 1px white;
   border-radius: 50%;
-  background-color: white;
-  box-shadow: 0 0 5px 1px black;
-}
-.navLink-home h2 {
-  transform: translateY(-30px);
 }
 
 /* NavLinkHome */
@@ -52,13 +39,17 @@
   justify-content: center;
 }
 .top-bar li {
+  display: flex;
   list-style: none;
-  justify-content: space-between;
-  padding-right: 10px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  padding: 5px 5px;
+  width: 60px;
 }
 .top-bar a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 /* NavLinkMenu */
