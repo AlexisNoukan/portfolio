@@ -5,7 +5,7 @@ import Python from '../img/python.jpeg'
 
 const projet = () => {
     return (
-        <div>
+        <>
           <Navigation/>
           <div className='center'>
             <div className='card-container'>
@@ -48,7 +48,7 @@ const projet = () => {
               </div>
             </div>
           </div>
-      </div>
+      </>
     );
 };
 
