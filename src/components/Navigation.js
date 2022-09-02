@@ -6,6 +6,7 @@ import Logo from '../img/profil-pic.png'
 
 const Navigation = () => {
     return (
+        <>
         <div className='top-bar-home'>
             <div className='home-pic'>
                 <img src={Logo} alt="profil-pic" className='pic'/>
@@ -35,6 +36,7 @@ const Navigation = () => {
                 </ul>
             </div>
         </div>
+        </>
     );
 };
 

@@ -9,7 +9,6 @@ const projet = () => {
           <Navigation/>
           <div className='center'>
             <div className='card-container'>
-            
               <div className="card">
                 <img 
                 src={Python} 

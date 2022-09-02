@@ -36,6 +36,8 @@
 .top-bar ul {
   display: flex;
   justify-content: center;
+  padding: 0;
+  gap: 20px;
 }
 .top-bar li {
   display: flex;

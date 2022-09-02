@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const notfound = () => {
     return (
+        <>
         <div style={notFound}>
         
             <div style={div}>
@@ -10,6 +11,7 @@ const notfound = () => {
              return</NavLink>
              </div>
         </div>
+        </>
     );
 };
 

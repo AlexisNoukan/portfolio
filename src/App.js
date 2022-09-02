@@ -9,18 +9,18 @@ import NotFound from './pages/NotFound.js';
 
 function App() {
   return (
-    <>
+    
     <BrowserRouter>
-    <Routes>
-      <Route exact to path="/" element={<Home/>} />
-      <Route path="/projet" element={<Projet/>} />
-      <Route path="/skill" element={<Skill/>} />
-      <Route path="/contact" element={<Contact/>} />
-      <Route element={NotFound} />
-    </Routes>
-</BrowserRouter>
-    </>
+      <Routes>
+        <Route exact to path="/" element={<Home/>} />
+        <Route path="/projet" element={<Projet/>} />
+        <Route path="/skill" element={<Skill/>} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route element={NotFound} />
+      </Routes>
+  </BrowserRouter>
+    
   );
-}
+}   
 
 export default App;
