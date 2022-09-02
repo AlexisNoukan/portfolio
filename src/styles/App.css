@@ -1,20 +1,6 @@
 /*------------------------------HOME-----------------------------------*/
 /*------------------------------HOME-----------------------------------*/
 /*------------------------------HOME-----------------------------------*/
-body {
-  width: 100%;
-  background-color: red;
-}
-#root {
-  height: 100%;
-  background: linear-gradient(
-      142deg,
-      rgba(230, 67, 230, 1) 0%,
-      rgba(147, 94, 255, 1) 50%,
-      rgba(0, 179, 255, 1) 100%
-    )
-    no-repeat;
-}
 
 .presentation {
   text-align: center;
@@ -66,8 +52,9 @@ body {
 }
 
 .card-container .card img {
-  width: 100px;
-  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  width: 100%;
 }
 
 /*------------------------------Projet-----------------------------------*/
