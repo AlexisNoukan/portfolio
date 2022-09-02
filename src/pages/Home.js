@@ -7,9 +7,11 @@ const Home = () => {
     return (
         <div>
             <Navigation/>
-           <p>Bonjour</p>
-           <p>ceci est une petite présentation de moi  </p>
-           <p>lol ca marche</p>
+            <div className='presentation'>
+                <p>Bonjour</p>
+                <p>ceci est une petite présentation de moi  </p>
+                <p>lol ca marche</p>
+            </div>
         </div>
     );
 };
