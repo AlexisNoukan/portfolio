@@ -45,6 +45,7 @@ body {
   border-radius: 20px;
   padding: 20px;
   align-items: center;
+  width:30%;
 }
 
 .card-container .card img {
