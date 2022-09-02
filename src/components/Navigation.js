@@ -7,7 +7,7 @@ const Navigation = () => {
     return (
         <div className='top-bar-home'>
             <div className='home-pic'>
-                <img src="../img/chibi.png" alt="profil-pic" className='pic'/>
+                <img src="./test.png" alt="profil-pic" className='pic'/>
             </div>
             <div className='top-bar'>
                 <ul>
