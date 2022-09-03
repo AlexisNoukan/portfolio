@@ -13,11 +13,18 @@
 /*------------------------------CONTACT-----------------------------------*/
 /*------------------------------CONTACT-----------------------------------*/
 /*------------------------------CONTACT-----------------------------------*/
+.formulaire {
+  display: flex;
+  justify-content: center;
+}
 .contact-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px 20px;
 }
 
 .contact-form input {
@@ -25,6 +32,9 @@
 }
 .contact-form textarea {
   border-radius: 20px;
+}
+.contact-form button {
+  margin-top: 10px;
 }
 
 /*------------------------------CONTACT-----------------------------------*/

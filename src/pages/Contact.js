@@ -7,7 +7,7 @@ const contact = () => {
 
         <Navigation/>
 
-        
+        <div className="formulaire">
         <form action="contact" className='contact-form'>
 
             <h1>Contact Me</h1>
@@ -24,7 +24,7 @@ const contact = () => {
             <button type="submit">Send</button>
 
         </form> 
-        
+        </div>
     </> 
     );
 };
