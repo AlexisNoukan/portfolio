@@ -29,12 +29,19 @@
 
 .contact-form input {
   border-radius: 20px;
+  width: 100%;
 }
 .contact-form textarea {
   border-radius: 20px;
+  width: 100%;
 }
 .contact-form button {
   margin-top: 10px;
+  color: white;
+  background-color: plum;
+  width: 50%;
+  border-radius: 20px;
+  text-decoration: none;
 }
 
 /*------------------------------CONTACT-----------------------------------*/
