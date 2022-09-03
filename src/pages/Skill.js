@@ -8,28 +8,28 @@ const skill = () => {
             <Navigation/>
             <div className='center'>
                 <p>HTML</p>
-                <div class="container">
-                    <div class="skills html">90%</div>
+                <div className="container">
+                    <div className="skills html">90%</div>
                 </div>
 
                 <p>CSS</p>
-                <div class="container">
-                    <div class="skills css">80%</div>
+                <div className="container">
+                    <div className="skills css">80%</div>
                 </div>
 
                 <p>JavaScript</p>
-                <div class="container">
-                    <div class="skills js">65%</div>
+                <div className="container">
+                    <div className="skills js">65%</div>
                 </div>
 
                 <p>ReactJs</p>
-                <div class="container">
-                    <div class="skills reactjs">60%</div>
+                <div className="container">
+                    <div className="skills reactjs">60%</div>
                 </div>
 
                 <p>Python</p>
-                <div class="container">
-                    <div class="skills python">60%</div>
+                <div className="container">
+                    <div className="skills python">60%</div>
                 </div>
             </div>
         </>
