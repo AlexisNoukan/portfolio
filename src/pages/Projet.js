@@ -1,7 +1,8 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
-import '../styles/App.css'
-import Python from '../img/python.jpeg'
+import '../styles/App.css';
+import Python from '../img/python.jpeg';
+import JavaScript from '../img/JavaScript.png';
 
 const projet = () => {
     return (
@@ -17,7 +18,7 @@ const projet = () => {
               </div>
               <div className="card">
                 <img 
-                src={Python} 
+                src={JavaScript} 
                 alt="python"/>
                 <h2>python project</h2>
               </div>
