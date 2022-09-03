@@ -51,10 +51,10 @@
 }
 
 .card-container .card img {
-  max-width: 100px;
-  max-height: 100px;
   width: 100%;
   border-radius: 20px 20px 0 0;
+  max-width: 150px;
+  max-height: 150px;
 }
 
 /*------------------------------Projet-----------------------------------*/
