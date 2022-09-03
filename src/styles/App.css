@@ -38,7 +38,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 100%;
+  width: 60%;
 }
 
 .card-container .card {
@@ -53,8 +53,9 @@
 .card-container .card img {
   width: 100%;
   border-radius: 20px 20px 0 0;
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: cover;
 }
 
 /*------------------------------Projet-----------------------------------*/
