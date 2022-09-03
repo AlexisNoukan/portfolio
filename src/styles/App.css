@@ -74,18 +74,18 @@
 /*------------------------------Skill-----------------------------------*/
 
 .container {
-  width: 100%; /* Full width */
-  background-color: #ddd; /* Grey background */
+  width: 100%;
+  background-color: #ddd;
   display: flex;
   flex-direction: column;
   width: 60%;
 }
 
 .skills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
 }
 
 .html {
