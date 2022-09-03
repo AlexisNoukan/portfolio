@@ -6,7 +6,7 @@ const skill = () => {
     return (
         <>
             <Navigation/>
-            
+            <div className='center'>
             <p>HTML</p>
             <div class="container">
                 <div class="skills html">90%</div>
@@ -22,9 +22,15 @@ const skill = () => {
                 <div class="skills js">65%</div>
             </div>
 
-            <p>PHP</p>
+            <p>ReactJs</p>
             <div class="container">
-                <div class="skills php">60%</div>
+                <div class="skills reactjs">60%</div>
+            </div>
+
+            <p>Python</p>
+            <div class="container">
+                <div class="skills python">60%</div>
+            </div>
             </div>
         </>
     );

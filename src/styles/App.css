@@ -20,6 +20,13 @@
   align-items: center;
 }
 
+.contact-form input {
+  border-radius: 20px;
+}
+.contact-form textarea {
+  border-radius: 20px;
+}
+
 /*------------------------------CONTACT-----------------------------------*/
 /*------------------------------CONTACT-----------------------------------*/
 /*------------------------------CONTACT-----------------------------------*/
@@ -69,6 +76,9 @@
 .container {
   width: 100%; /* Full width */
   background-color: #ddd; /* Grey background */
+  display: flex;
+  flex-direction: column;
+  width: 60%;
 }
 
 .skills {
@@ -81,19 +91,23 @@
 .html {
   width: 90%;
   background-color: #04aa6d;
-} /* Green */
+}
 .css {
   width: 80%;
   background-color: #2196f3;
-} /* Blue */
+}
 .js {
   width: 65%;
   background-color: #f44336;
-} /* Red */
-.php {
+}
+.reactjs {
   width: 60%;
-  background-color: #808080;
-} /* Dark Grey */
+  background-color: purple;
+}
+.python {
+  width: 60%;
+  background-color: pink;
+}
 
 /*------------------------------Skill-----------------------------------*/
 /*------------------------------Skill-----------------------------------*/
