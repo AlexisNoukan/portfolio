@@ -6,7 +6,7 @@ const skill = () => {
     return (
         <>
             <Navigation/>
-            <div className='center'>
+            <div className='center-skill'>
                 <p>HTML</p>
                 <div className="container">
                     <div className="skills html">90%</div>

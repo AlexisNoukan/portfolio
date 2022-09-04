@@ -99,13 +99,17 @@ body {
 /*------------------------------Skill-----------------------------------*/
 /*------------------------------Skill-----------------------------------*/
 /*------------------------------Skill-----------------------------------*/
-
+.center-skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .container {
-  width: 100%;
   background-color: #ddd;
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 60%;
 }
 
 .skills {
