@@ -31,6 +31,7 @@ body {
   border: 1px solid white;
   border-radius: 20px;
   padding: 10px 20px;
+  width: 30%;
 }
 
 .contact-form input {
@@ -102,7 +103,7 @@ body {
   background-color: #ddd;
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 50%;
 }
 
 .skills {
