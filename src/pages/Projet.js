@@ -9,46 +9,48 @@ const projet = () => {
     return (
         <>
           <Navigation/>
+          <div className="jcp">
           <div className='center'>
             <div className='card-container'>
               <div className="card">
                 <img 
                 src={Python} 
                 alt="python"/>
-                <h2>python project</h2>
+                <p>python project</p>
               </div>
               <div className="card">
                 <img 
                 src={JavaScript} 
                 alt="python"/>
-                <h2>JavaScript project</h2>
+                <p>JavaScript project</p>
               </div>
               <div className="card">
                 <img 
                 src={ReactImg} 
                 alt="python"/>
-                <h2>ReactJS project</h2>
+                <p>ReactJS project</p>
               </div>
               <div className="card">
                 <img 
                 src={Python} 
                 alt="python"/>
-                <h2>python project</h2>
+                <p>python project</p>
               </div>
               <div className="card">
                 <img 
                 src={Python} 
                 alt="python"/>
-                <h2>python project</h2>
+                <p>python project</p>
               </div>
               <div className="card">
                 <img 
                 src={Python} 
                 alt="python"/>
-                <h2>python project</h2>
+                <p>python project</p>
               </div>
             </div>
           </div>
+        </div>
       </>
     );
 };
