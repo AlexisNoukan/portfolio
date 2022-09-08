@@ -58,14 +58,12 @@ body {
 /*------------------------------Projet-----------------------------------*/
 /*------------------------------Projet-----------------------------------*/
 /*------------------------------Projet-----------------------------------*/
-.jcp {
-  display: flex;
-  justify-content: center;
-}
+
 .center {
   display: flex;
-  width: 60%;
+  width: 80%;
   justify-content: center;
+  margin: 0 auto;
 }
 .card-container {
   display: flex;
