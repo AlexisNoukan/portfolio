@@ -7,7 +7,8 @@ const Home = () => {
     return (
         <>
             <Navigation/>
-            hello world
+            <h1>Alexis Noukan</h1>
+            <h2>Web Developper</h2>
         </>
     );
 };

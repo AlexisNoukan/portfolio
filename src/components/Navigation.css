@@ -1,58 +1,13 @@
 .top-bar-home {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 50px 0;
-  font-size: larger;
-}
-/* NavLinkHome */
-
-.navLink-home {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-}
-.pic {
   width: 100%;
-  height: 100%;
-  object-fit: wrap;
 }
-.home-pic {
-  display: flex;
-  align-items: center;
-  width: 120px;
-  height: 120px;
-  background-color: blueviolet;
-  box-shadow: 0 0 5px 1px white;
-  border-radius: 50%;
-}
-
-/* NavLinkHome */
-
-/* NavLinkMenu */
-
 .top-bar ul {
   display: flex;
-  justify-content: center;
-  padding: 0;
-  gap: 20px;
+  width: 50%;
 }
-.top-bar li {
-  display: flex;
-  list-style: none;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid white;
-  padding: 0 10px;
 
-  border-radius: 20px;
-}
-.top-bar a {
+.top-bar ul navlink span {
   text-decoration: none;
   color: white;
 }
-
-/* NavLinkMenu */
