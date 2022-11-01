@@ -1,11 +1,10 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
+
 
 const contact = () => {
     return (
       <> 
 
-        <Navigation/>
 
         <div className="formulaire">
         <form action="contact" className='contact-form'>

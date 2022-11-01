@@ -1,11 +1,11 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
+
 import '../styles/App.css'
 
 const skill = () => {
     return (
         <>
-            <Navigation/>
+           
             <div className='center-skill'>
                 <p>HTML</p>
                 <div className="container">
