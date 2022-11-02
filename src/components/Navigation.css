@@ -6,8 +6,13 @@
   display: flex;
   width: 50%;
 }
+.top-bar ul li {
+  padding: 20px;
+  text-decoration: none;
+  list-style: none;
+}
 
-.top-bar ul navlink span {
+.top-bar ul li navLink span {
   text-decoration: none;
   color: white;
 }
